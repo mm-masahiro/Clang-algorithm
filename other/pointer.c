@@ -22,5 +22,11 @@ int main(void) {
 	// hoge_pointerのメモリアドレス
 	printf("%p\n", &hoge_pointer);
 
+	int* p = NULL;
+	// ポインタに0を代入した場合、コンパイル時にNULLポインターに変換される
+	int* p2 = 0;
+	printf("%p\n", p);
+	printf("%p\n", p2);
+
 	return 0;
 }

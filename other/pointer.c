@@ -14,7 +14,13 @@ int main(void) {
 	// hoge_pointer = hoge;
 
 	printf("%d\n", hoge);
-	// printf("%d\n", hoge_pointer);
+	// %pでポインタ渡す
+	printf("%p\n", &hoge);
+	printf("%p\n", hoge_pointer);
+	printf("%p\n", hoge_pointer2);
+	printf("%d\n", *hoge_pointer);
+	// hoge_pointerのメモリアドレス
+	printf("%p\n", &hoge_pointer);
 
 	return 0;
 }

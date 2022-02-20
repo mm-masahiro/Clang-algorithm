@@ -7,6 +7,7 @@ int main(void)
 	int n;
 	int a, b, c, d, e;
 
+	// srandの引数の数個randで実行した際の乱数を準備する
 	// srandの引数を定数で指定すると何度実行しても同じ結果が得られてしまう
 	srand(10);
 

@@ -31,24 +31,5 @@ int main(void)
 
 	printf("v = %d, w = %d, x = %d, y = %d, z = %d\n", v, w, x, y, z);
 
-	// for (int i = 0; i < 5; i++) {
-	// 	int num = rand();
-	// 	printf("%d\n", num);
-	// }
-
-	// printf("\n");
-
-	// for (int i = 0; i < 5; i++) {
-	// 	int num = rand();
-	// 	printf("%d\n", num);
-	// }
-
-	// printf("\n");
-
-	// for (int i = 0; i < 5; i++) {
-	// 	int num = rand();
-	// 	printf("%d\n", num);
-	// }
-
 	return 0;
 }
